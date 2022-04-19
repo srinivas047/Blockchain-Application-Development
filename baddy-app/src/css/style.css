@@ -1,0 +1,60 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+input{
+  width: 500px;
+}
+
+
+#items {
+  table-layout: fixed;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 60%;
+margin-left: 20%;
+}
+
+#items td, #items th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#items tr:nth-child(even){background-color: #f2f2f2;}
+
+#items tr:hover {background-color: #ddd;}
+
+#items th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #04AA6D;
+color: white;
+}
+
+.flex-container{
+  width: 100%;
+  min-height: 300px;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari */     
+  display: flex; /* Standard syntax */
+}
+.flex-container .column{
+  padding: 5px;
+  /* background: #dbdfe5; */
+  -webkit-flex: 1; /* Safari */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1; /* Standard syntax */
+}
+
+img{
+width: 320px;
+height: 360px;
+border-radius: 5%;
+}
