@@ -1,0 +1,73 @@
+<html>
+    <!-- <script src="web3.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script  src="js/toastr.min.js"></script> -->
+    <script src="js/app.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      input{
+        width: 500px;
+      }
+    </style>
+
+<body>
+    <div>
+
+    
+    <!-- <input id = "addItems">
+    <button id="sellrequest">Sell Items</button> -->
+    <!-- <br></br>
+    <button id="buyrequest">Buy Items</button>
+    <br></br> -->
+    <div class="panel-body">
+      <div class="col-xs-2 col-sm-8 col-sm-push-2">
+        <h1 class="text-center">User Registration</h1>
+        <hr/>
+        <button id="register" class="btn btn-success" type="button">Register User</button>
+        <br></br>
+        <p id="register_success"></p>
+      </div>
+      
+      <br></br>
+      <div class="col-xs-2 col-sm-8 col-sm-push-2">
+        <h1 class="text-center">Buy Items</h1>
+        <hr/>
+        <button id="available_items" class="btn btn-success" type="button">Get Number of Available Items</button>
+        <p id="getitems"></p>
+  
+        <button id="lowprice" class="btn btn-success" type="button">Lowest Priced Item</button>
+        <div id="getlowprice"></div>
+        <br>
+        <button id="lowage" class="btn btn-success" type="button">Lowest Aged Item</button>
+        <div id="getlowage"></div>
+        <br>
+
+        <input type="text" name="buyadress" id="buyadress" placeholder="Enter the address of the Item">
+        <br></br>
+        <button id="buyrequest" class="btn btn-success" type="button">Buy</button>
+        <p id="successfullbuy"></p>
+      </div>
+
+      <br></br>
+      <div class="col-xs-2 col-sm-8 col-sm-push-2">
+        <h1 class="text-center">Sell Items</h1>
+        <hr/>
+        <input type="text" name="name" id="ID" placeholder="Enter ID of the Item"/>
+        <br></br>
+        <input type="text" name="name" id="price" placeholder="Enter Price of the Item"/>
+        <br></br>
+        <input type="text" name="name" id="months" placeholder="Enter Age of the Item"/>
+        <br></br>
+        <button id="sellrequest" class="btn btn-success" type="button">Sell</button>
+      </div>
+
+   </div>
+</body>
+
+</html>
